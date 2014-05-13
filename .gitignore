@@ -25,3 +25,6 @@ doc/
 .DS_Store
 .idea
 .secret
+
+# Ignore files like nohup
+cd stnohup.out
