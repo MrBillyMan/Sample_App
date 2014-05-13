@@ -14,8 +14,10 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 
-gem 'bootstrap-sass', '2.3.2.0'   #twitter bootstrap!
-gem 'sprockets', '2.11.0'       #adding sprockets to fix ver. incompatibility
+gem 'bootstrap-sass', '2.3.2.0'     #twitter bootstrap
+gem 'sprockets', '2.11.0'           #adding sprockets to fix ver. incompatibility
+gem 'bcrypt-ruby', '3.1.2'          #Adding this for password hashing
+gem 'factory_girl_rails', '4.2.1'   #For Active Record RSpec Testing
 gem 'sass-rails', '4.0.1'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
