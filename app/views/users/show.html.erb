@@ -4,8 +4,11 @@
   <aside class="span4">
     <section>
       <h1>
-        <%= gravatar_for @user %>
+        <%# you can also type "gravatar_for @user" without the (@user, size: 50) %>
+
+        <%= gravatar_for(@user, size: 500)  %>
         <%= @user.name %>
+
       </h1>
     </section>
   </aside>
